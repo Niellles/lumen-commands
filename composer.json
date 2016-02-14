@@ -1,6 +1,13 @@
 {
   "name": "niellles/lumen-commands",
-  "description": "Adds artisan commands to Lumen (5.2) that aren't available by default. make: command, controller, exception, job, middleware and model.",
+  "description": "Adds artisan commands to Lumen (5.2) that aren't available by default. make: command, controller, exception, job, middleware, model and seed.",
+  "keywords": [
+    "Lumen",
+    "Commands",
+    "Artisan",
+    "Lumen 5.2",
+    "Make"
+  ],
   "license": "MIT",
   "authors": [
     {

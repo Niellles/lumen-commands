@@ -8,7 +8,7 @@ use Illuminate\Console\ConfirmableTrait;
 use Symfony\Component\Console\Input\InputOption;
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
 
-class SeedCommand extends Command
+class SeedMakeCommand extends Command
 {
     use ConfirmableTrait;
 
