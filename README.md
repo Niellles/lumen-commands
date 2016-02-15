@@ -14,6 +14,7 @@ Add `"niellles/lumen-commands": "dev-master"` to `"require-dev"` in your compose
 Add the following line to your app.php:
 ```php
 if (env('APP_ENV') === 'local') {
+    $app->bind(Illuminate\Database\ConnectionResolverInterface::class, Illuminate\Database\ConnectionResolver::class);
     $app->register(Niellles\LumenCommands\LumenCommandsServiceProvider::class);
 }
 ```
