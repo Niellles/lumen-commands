@@ -2,7 +2,7 @@
 This package adds commands that you may know from Laravel, but aren't supported in Lumen 5.2 ("The stunningly fast micro-framework by Laravel") by default.
 
 ## Installation
-It's recommended to only use this package in your development environment. You will not need these in production and Laravel left them out for a reason.
+It's recommended to only use this package in your development environment. You will not need these commands in production and Laravel left them out for a reason.
 Add `"niellles/lumen-commands": "dev-master"` to `"require-dev"` in your composer.json.
 ```javascript
 "require-dev": {
@@ -24,7 +24,7 @@ If you miss a particular command feel free to request it, or better yet: create 
 
 * make:console
 * make:controller
-* make:exception
+* make:job
 * make:exception
 * make:middleware
 * make:model
