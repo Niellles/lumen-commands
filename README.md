@@ -24,8 +24,8 @@ If you miss a particular command feel free to request it, or better yet: create 
 
 * make:console
 * make:controller
-* make:job
 * make:exception
+* make:job
 * make:middleware
 * make:model
 * make:seed
