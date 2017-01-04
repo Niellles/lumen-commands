@@ -5,7 +5,7 @@
     "Lumen",
     "Commands",
     "Artisan",
-    "Lumen 5.2",
+    "Lumen 5",
     "Make"
   ],
   "license": "MIT",
@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "laravel/lumen-framework": "5.2.*"
+    "laravel/lumen-framework": "5.*.*"
   },
   "autoload": {
     "psr-4": {
