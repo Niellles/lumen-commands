@@ -1,5 +1,5 @@
 # lumen-commands
-This package adds commands that you may know from Laravel, but aren't supported in Lumen 5.2 ("The stunningly fast micro-framework by Laravel") by default.
+This package adds commands that you may know from Laravel, but aren't supported in Lumen 5 ("The stunningly fast micro-framework by Laravel") by default.
 
 ## Installation
 It's recommended to only use this package in your development environment. You will not need these commands in production and Laravel left them out for a reason.
