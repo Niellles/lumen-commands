@@ -19,6 +19,9 @@ if (env('APP_ENV') === 'local') {
 }
 ```
 
+You can now run the commands, like you would under a Laravel installation, from your CLI of choice:
+```php artisan make:model test```
+
 ## Currently supported Commands
 Not all of Laravel's commands are included in this package. At this point it's only some make:* commands that I really missed.
 If you miss a particular command feel free to request it, or better yet: create it yourself (not much more than copy/paste) and do a pull-request.
@@ -30,6 +33,3 @@ If you miss a particular command feel free to request it, or better yet: create 
 * make:middleware
 * make:model
 * make:seed
-
-You run the commands like you would under a regular Laravel installation, for example:
-```php artisan make:model test```
