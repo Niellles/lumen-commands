@@ -30,3 +30,6 @@ If you miss a particular command feel free to request it, or better yet: create 
 * make:middleware
 * make:model
 * make:seed
+
+You run the commands like you would under a regular Laravel installation, for example:
+```php artisan make:model test```
