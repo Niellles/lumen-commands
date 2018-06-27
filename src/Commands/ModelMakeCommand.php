@@ -30,6 +30,6 @@ class ModelMakeCommand extends GeneratorCommand
 
     protected function getDefaultNamespace($namespace)
     {
-        return $namespace.'\Models';
+        return $namespace;
     }
 }
