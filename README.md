@@ -25,11 +25,11 @@ You can now run the commands, like you would under a Laravel installation, from 
 ## Currently supported Commands
 Not all of Laravel's commands are included in this package. At this point it's only some make:* commands that I really missed.
 If you miss a particular command feel free to request it, or better yet: create it yourself (not much more than copy/paste) and do a pull-request.
-
-* make:console
-* make:controller
-* make:exception
-* make:job
-* make:middleware
-* make:model
-* make:seed
+ 
+* `make:console {name}`
+* `make:controller {name}`
+* `make:exception {name}`
+* `make:job {name}`
+* `make:middleware {name}`
+* `make:model {name}`
+* `make:seed {name}`
