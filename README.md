@@ -1,5 +1,7 @@
+[![Lumen version](https://img.shields.io/badge/lumen-5.*.*-blue.svg)](https://github.com/Niellles/lumen-commands/) [![GitHub issues](https://img.shields.io/github/issues/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/issues) [![GitHub stars](https://img.shields.io/github/stars/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/stargazers)
+
 # lumen-commands
-This package adds commands that you may know from Laravel, but aren't supported in Lumen 5 ("The stunningly fast micro-framework by Laravel") by default.
+This package adds commands that you may know from Laravel, but aren't supported in Lumen 5 by default.
 
 ## Installation
 It's recommended to only use this package in your development environment. You will not need these commands in production and Laravel left them out for a reason.
