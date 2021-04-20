@@ -1,12 +1,14 @@
 {
   "name": "niellles/lumen-commands",
-  "description": "Adds artisan commands to Lumen 5 and 6 that aren't available by default.",
+  "description": "Adds artisan commands to Lumen that aren't available by default.",
   "keywords": [
     "Lumen",
     "Commands",
     "Artisan",
     "Lumen 5",
     "Lumen 6",
+    "Lumen 7",
+    "Lumen 8",
     "Make",
     "Model"
   ],
@@ -17,7 +19,7 @@
     }
   ],
   "require": {
-    "laravel/lumen-framework": "^6.0 || ^5.1"
+    "laravel/lumen-framework": ">=5.1"
   },
   "autoload": {
     "psr-4": {
