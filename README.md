@@ -1,7 +1,7 @@
-[![Lumen version](https://img.shields.io/badge/lumen-6.*.*-blue.svg)](https://github.com/Niellles/lumen-commands/) [![Lumen version](https://img.shields.io/badge/lumen-5.1.*-blue.svg)](https://github.com/Niellles/lumen-commands/)[![GitHub issues](https://img.shields.io/github/issues/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/issues) [![Packagist](https://img.shields.io/packagist/dt/niellles/lumen-commands.svg)](https://packagist.org/packages/niellles/lumen-commands) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Niellles/lumen-commands/blob/master/LICENSE)
+[![Lumen version](https://img.shields.io/badge/Lumen->=5.1-blue.svg)](https://github.com/Niellles/lumen-commands/) [![GitHub issues](https://img.shields.io/github/issues/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/issues) [![Packagist](https://img.shields.io/packagist/dt/niellles/lumen-commands.svg)](https://packagist.org/packages/niellles/lumen-commands) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Niellles/lumen-commands/blob/master/LICENSE)
 
 # lumen-commands
-This package adds commands that you may know from Laravel, but aren't supported in Lumen 5 and 6 by default.
+This package adds commands that you may know from Laravel, but aren't supported in Lumen by default.
 
 ## Installation
 It's recommended to only use this package in your development environment. You will not need these commands in production and Laravel left them out for a reason.
@@ -13,7 +13,7 @@ Add `"niellles/lumen-commands": "dev-master"` to `"require-dev"` in your compose
   }
 ```
 
-Add the following line to your app.php:
+Add the following lines to your app.php:
 ```php
 if (env('APP_ENV') === 'local') {
     $app->bind(Illuminate\Database\ConnectionResolverInterface::class, Illuminate\Database\ConnectionResolver::class);
