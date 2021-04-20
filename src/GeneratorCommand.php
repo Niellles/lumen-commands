@@ -2,12 +2,13 @@
 
 namespace Niellles\LumenCommands;
 
+use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Input\InputArgument;
 
-require_once('helpers.php');
+require_once 'helpers.php';
 
 
 abstract class GeneratorCommand extends Command
@@ -15,7 +16,7 @@ abstract class GeneratorCommand extends Command
     /**
      * The filesystem instance.
      *
-     * @var \Illuminate\Filesystem\Filesystem
+     * @var Filesystem
      */
     protected $files;
 
@@ -31,7 +32,7 @@ abstract class GeneratorCommand extends Command
     /**
      * Create a new controller creator command instance.
      *
-     * @param  \Illuminate\Filesystem\Filesystem  $files
+     * @param Filesystem $files
      * @return void
      */
     public function __construct(Filesystem $files)
@@ -146,8 +147,9 @@ abstract class GeneratorCommand extends Command
     /**
      * Build the class with the given name.
      *
-     * @param  string  $name
+     * @param string $name
      * @return string
+     * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
      */
     protected function buildClass($name)
     {
@@ -203,7 +205,7 @@ abstract class GeneratorCommand extends Command
             }
         }
 
-        throw new RuntimeException('Unable to detect application namespace.');
+        throw new Exception('Unable to detect application namespace.');
     }
 
     /**

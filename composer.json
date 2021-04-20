@@ -19,7 +19,8 @@
     }
   ],
   "require": {
-    "laravel/lumen-framework": ">=5.1"
+    "laravel/lumen-framework": ">=5.1",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
