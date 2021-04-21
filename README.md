@@ -1,4 +1,7 @@
-[![Lumen version](https://img.shields.io/badge/Lumen->=5.1-blue.svg)](https://github.com/Niellles/lumen-commands/) [![GitHub issues](https://img.shields.io/github/issues/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/issues) [![Packagist](https://img.shields.io/packagist/dt/niellles/lumen-commands.svg)](https://packagist.org/packages/niellles/lumen-commands) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Niellles/lumen-commands/blob/master/LICENSE)
+![Lumen version](https://img.shields.io/badge/Lumen->=5.1-blue.svg)
+![Packagist Version](https://img.shields.io/packagist/v/Niellles/lumen-commands)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/niellles/lumen-commands?include_prereleases)
+[![GitHub issues](https://img.shields.io/github/issues/Niellles/lumen-commands.svg)](https://github.com/Niellles/lumen-commands/issues) [![Packagist](https://img.shields.io/packagist/dt/niellles/lumen-commands.svg)](https://packagist.org/packages/niellles/lumen-commands) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/Niellles/lumen-commands/blob/master/LICENSE)
 
 # lumen-commands
 This package adds commands that you may know from Laravel, but aren't supported in Lumen by default.
@@ -9,7 +12,7 @@ Add `"niellles/lumen-commands": "dev-master"` to `"require-dev"` in your compose
 ```javascript
 "require-dev": {
     ...
-    "niellles/lumen-commands": "dev-master"
+    "niellles/lumen-commands": "^1.0.0"
   }
 ```
 
